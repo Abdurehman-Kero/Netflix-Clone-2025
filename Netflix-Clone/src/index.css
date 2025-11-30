@@ -1,8 +1,21 @@
  * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
  }
  ul li{
     list-style: none;
      
- }
+ } 
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Lexend:wght@100..900&display=swap');
+ :root {
+  --font-base: 'Lexend', sans-serif;
+  --font-second-base: 'Inter', sans-serif;
+  --bg-color: #111;
+  --primary-color: #ffffff;
+  --secondary-color: #e50914;
+}
+body{
+   background-color: hsl(0, 26%, 7%);
+}
