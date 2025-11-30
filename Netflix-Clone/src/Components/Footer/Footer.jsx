@@ -3,7 +3,7 @@ import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import styles from "./Footer.module.css";
-
+// key = f73426f58198b0884323410f54a46825
 const Footer = () => {
   return (
     <div className={styles["footer_outer_container"]}>
