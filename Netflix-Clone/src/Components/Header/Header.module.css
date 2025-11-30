@@ -1,5 +1,32 @@
 .headerContainer{
-    display: flex;
+    position: sticky;
+    top: 0; 
     background-color: red;
-
+    /* height: 10vh;   */
+    display: flex; 
+    justify-content: space-between;
+}
+.LeftHeaderList{ 
+    align-items: center;
+    display: flex; 
+    justify-content: space-between;
+    color: white;
+    width: 60%;
+    /* max-width: 700px;  */
+    margin-left: 5%; 
+    
+} 
+.headerRight { 
+    display: flex; 
+    justify-content: space-around;
+    max-width: 300px;
+    align-items: center;
+    align-content: end;
+    width: 40%;
+}
+ @media screen and (max-width: 900px) {
+    .LeftHeaderList { 
+        flex-direction: column; 
+        align-items: flex-start;
+    }  
 }
